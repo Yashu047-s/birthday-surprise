@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h2>Let's see how well you know us ❤️</h2>
+
+<div id="quizBox">
+
+<p id="question"></p>
+
+<button onclick="checkAnswer(0)" id="opt1"></button>
+<button onclick="checkAnswer(1)" id="opt2"></button>
+<button onclick="checkAnswer(2)" id="opt3"></button>
+
+</div>
+
+<script src="js/script.js"></script>
+
+<script>
+loadQuestion()
+</script>
+<script>
+createHearts()
+</script>
+<div id="hearts-container"></div>
+</body>
+</html>

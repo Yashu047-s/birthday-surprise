@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Memories</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1>Our Memories ❤️</h1>
+
+<img id="memoryImage">
+
+<br><br>
+
+<button onclick="startMemories()">Start Memories</button>
+
+<audio id="music" src="music/song.mp3"></audio>
+
+<div id="nextBox" style="display:none; margin-top:20px;">
+<h3>Do you want to see what's next? 😏</h3>
+<button onclick="goFinal()">Yes ❤️</button>
+<button onclick="noNext(this)">No ❌</button>
+</div>
+
+<script src="js/script.js"></script>
+<script>
+createHearts()
+</script>
+<div id="hearts-container"></div>
+</body>
+</html>
